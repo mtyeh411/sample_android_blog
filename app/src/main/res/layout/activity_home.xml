@@ -6,11 +6,26 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:gravity="center"
+    >
+
+    <ImageButton
+        android:id="@+id/feather"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/feather"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/feather_content_description"
+        android:layout_centerHorizontal="true"
+        />
 
     <TextView
-        android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feather"
+        android:text="@string/view_sample_post"
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>
