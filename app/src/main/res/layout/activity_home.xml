@@ -10,22 +10,21 @@
     android:gravity="center"
     >
 
-    <ImageButton
-        android:id="@+id/feather"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/feather"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/feather_content_description"
+    <Button
+        android:id="@+id/write_post"
+        android:text="@string/write_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/pen"
         android:layout_centerHorizontal="true"
         />
-
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/view_post"
+        android:text="View Post\n(intent data example)"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/feather"
-        android:text="@string/view_sample_post"
         android:layout_centerHorizontal="true"
+        android:layout_below="@id/write_post"
         />
 
 </RelativeLayout>

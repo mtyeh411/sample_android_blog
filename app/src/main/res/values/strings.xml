@@ -7,6 +7,7 @@
     <string name="feather_content_description">feather icon</string>
     <string name="view_sample_post">View Sample Post</string>
     <string name="title_activity_create_blog">CreateBlogActivity</string>
+    <string name="write_post">Write Post</string>
     <string name="title_activity_view_post">ViewPostActivity</string>
     <string name="create_post_header">Create a new blog post!</string>
     <string name="title">Title</string>
