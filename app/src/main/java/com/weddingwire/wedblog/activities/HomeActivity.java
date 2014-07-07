@@ -21,6 +21,8 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
 	    Button writeButton = (Button) findViewById(R.id.write_post);
 	    writeButton.setOnClickListener(this);
+        Button viewAllPosts = (Button) findViewById(R.id.view_posts);
+        viewAllPosts.setOnClickListener(this);
         Button viewPost = (Button) findViewById(R.id.view_post);
         viewPost.setOnClickListener(this);
     }
@@ -33,6 +35,9 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 				break;
             case R.id.view_post:
                 startViewPost();
+                break;
+            case R.id.view_posts:
+                startPostList();
                 break;
 			default:
 				throw new RuntimeException("Unknown button click!");
@@ -55,5 +60,11 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         intent.putExtra(ViewPostActivity.EXTRA_NAME, "This is passed data.");
         startActivity(intent);
     }
+
+    private void startPostList() {
+        Intent intent = new Intent(this, PostListActivity.class);
+        startActivity(intent);
+    }
+
 
 }
