@@ -1,9 +1,7 @@
-package com.weddingwire.wedblog;
+package com.weddingwire.wedblog.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.weddingwire.wedblog.R;

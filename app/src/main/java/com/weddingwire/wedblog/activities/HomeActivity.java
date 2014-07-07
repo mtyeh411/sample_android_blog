@@ -1,4 +1,4 @@
-package com.weddingwire.wedblog;
+package com.weddingwire.wedblog.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import com.weddingwire.wedblog.R;
 
 
 public class HomeActivity extends Activity implements View.OnClickListener {
