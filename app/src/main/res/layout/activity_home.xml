@@ -19,12 +19,20 @@
         android:layout_centerHorizontal="true"
         />
     <Button
-        android:id="@+id/view_post"
-        android:text="View Post\n(intent data example)"
+        android:id="@+id/view_posts"
+        android:text="View All Posts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/write_post"
+        />
+    <Button
+        android:id="@+id/view_post"
+        android:text="DEPRECATED\nView Post\n(intent data example)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/view_posts"
         />
 
 </RelativeLayout>
